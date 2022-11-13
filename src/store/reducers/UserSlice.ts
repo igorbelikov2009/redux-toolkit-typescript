@@ -42,6 +42,15 @@ export const userSlice = createSlice({
       // в поле payload с сервера. Обычно, туда передают какие-то данные, для того, чтобы
       // поместить их в state.
     },
+    decrement(state, action: PayloadAction<number>) {
+      state.count -= action.payload;
+    },
+    multiplication(state, action: PayloadAction<number>) {
+      state.count *= action.payload;
+    },
+    divide(state, action: PayloadAction<number>) {
+      state.count /= action.payload;
+    },
   },
 });
 
