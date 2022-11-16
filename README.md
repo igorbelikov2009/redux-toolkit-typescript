@@ -1,3 +1,5 @@
+### `npx create-react-app redux-toolkit-typescript --template typescript`
+
 ### `npm start`
 
 ### `npm install @reduxjs/toolkit react-redux @types/react-redux` устанавливаем react-redux, redux-toolkit и связываем всё с TypeScript

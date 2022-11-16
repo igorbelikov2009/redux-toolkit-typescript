@@ -1,9 +1,9 @@
 import { combineReducers, configureStore } from "@reduxjs/toolkit";
-import userReducer from "./reducers/UserSlice";
+import counterReducer from "./reducers/CounterSlice";
 
 // Создаём корневой редюсер
 const rootReducer = combineReducers({
-  userReducer,
+  counterReducer,
 });
 
 // Создаём функцию setupStore, с помощью её мы будем конфигурировать
